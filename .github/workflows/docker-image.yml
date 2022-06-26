@@ -31,11 +31,10 @@ jobs:
           CF_HOST: "https://mr-59d37837920f8900018a6183-63b0e73.cf-op.com"
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
 
-#         using integrations - registry integration named docker
           CF_CONTAINER_REGISTRY_INTEGRATION: "dockerhub"
-#         using integrations - jira integration named jira
           CF_JIRA_INTEGRATION: "jira"
           
+          "CF_GIT_PROVIDER": "github"
           "CF_GITHUB_TOKEN": ${{ secrets.CF_GITHUB_TOKEN }}
           "CF_GIT_REPO": "ziv-codefresh/example-github-action-use-csdp-report-image"
           "CF_GIT_BRANCH": "feature"
