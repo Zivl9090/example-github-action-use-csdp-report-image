@@ -37,7 +37,6 @@ jobs:
           CF_JIRA_INTEGRATION: "jira"
           
           "CF_GITHUB_TOKEN": ${{ secrets.CF_GITHUB_TOKEN }}
-          "CF_GIT_PROVIDER": "github"
           "CF_GIT_REPO": "ziv-codefresh/example-github-action-use-csdp-report-image"
           "CF_GIT_BRANCH": "feature"
           "CF_JIRA_MESSAGE": "CR-9021"
