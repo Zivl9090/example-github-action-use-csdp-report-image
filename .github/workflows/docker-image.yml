@@ -40,7 +40,7 @@ jobs:
           "CF_GIT_BRANCH": "feature"
           "CF_JIRA_MESSAGE": "CR-9021"
           "CF_JIRA_PROJECT_PREFIX": "CR"
-        uses: codefresh-io/csdp-report-image@0.0.46
+        uses: codefresh-io/codefresh-report-image@Marketplace
 
 
 
